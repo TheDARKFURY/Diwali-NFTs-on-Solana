@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             })
           }
         >
-          {isLoading ? "Claiming..." : "Claim One NFT"} 
+          {isLoading ? "Claiming..." : "Claim One NFT"}
         </button>
 
         <div className={styles.iconContainer}></div>
