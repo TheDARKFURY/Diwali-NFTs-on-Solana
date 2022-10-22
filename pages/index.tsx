@@ -62,6 +62,7 @@ const Home: NextPage = () => {
         >
           {isLoading ? "Claiming..." : "Claim One NFT"}
         </button>
+        <br />
         <WalletMultiButton />
         <div className={styles.iconContainer}></div>
         <h1 className={styles.h1}>
