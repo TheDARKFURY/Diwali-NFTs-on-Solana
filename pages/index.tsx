@@ -35,7 +35,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         {
           // If the Metadata is loading then show a loading state
-          loadingMetadata ? <h1>Loading...</h1> : <h1>{metadata?.name}</h1>
+          <h1>Happy Diwali</h1>
         }
 
         {
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             })
           }
         >
-          {isLoading ? "Claiming..." : "Claim One NFT"}
+          {isLoading ? "Claiming..." : "Claim One NFT"} 
         </button>
 
         <div className={styles.iconContainer}></div>
