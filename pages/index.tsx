@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           // If the Metadata is loading then show a loading state
           loadingMetadata ? <h1>Loading...</h1> : <h1>{metadata?.name}</h1>
         }
-        <WalletMultiButton />
+        
 
         {
           // Claim Conditions
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
         >
           {isLoading ? "Claiming..." : "Claim One NFT"}
         </button>
-
+        <WalletMultiButton />
         <div className={styles.iconContainer}></div>
         <h1 className={styles.h1}>
           Happy Diwali from{" "}
