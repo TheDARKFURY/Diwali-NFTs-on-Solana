@@ -14,7 +14,7 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 
 const Home: NextPage = () => {
   const { program } = useProgram(
-    "A753d9yYgFLhqkF2CmMQahTFSWoudVqdHRuFWEiT5Bjn",
+    "2fxWcM8yYwMZJLbfBw9tRQVp1hBYsiDQcw193maiQ8EZ",
     "nft-drop"
   );
 
@@ -68,8 +68,8 @@ const Home: NextPage = () => {
           <b>
             <a
               href="https://twitter.com/shahsoham_"
-              target="_blank"
-              rel="noopener noreferrer"
+              // target="_blank"
+              // rel="noopener noreferrer"
               className={styles.lightPurple}
             >
               Soham.xyz
